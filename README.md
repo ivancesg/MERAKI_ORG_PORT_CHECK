@@ -6,6 +6,7 @@
 2. Replace the following lines of code:
 
 Line 23 -> Modify it with the base URL of your Meraki Dashboard.
+
 Line 37 -> Modify it with your user's API key.
 
 3. From this point on, the script is ready, just run it, select the Organization you want to review and the script will generate an Excel file with all the data collected.

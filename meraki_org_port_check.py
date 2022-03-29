@@ -2,6 +2,14 @@ import requests
 import json
 import pandas as pd
 from datetime import datetime
+import os
+
+path = ".\\REPORTS"
+
+isExist = os.path.exists(path)
+
+if not isExist:
+    os.makedirs(path)
 
 now = datetime.now()
 excel_name = "Report-" + str(now.date()) + "_" + str(now.strftime("%H-%M-%S")) + ".xlsx"

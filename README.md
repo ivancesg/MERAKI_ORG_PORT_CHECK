@@ -1,6 +1,8 @@
 # MERAKI_ORG_PORT_CHECK
  Script that checks all Meraki switch ports in an organization and returns the existence of errors.
 
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/ivancesg/MERAKI_ORG_PORT_CHECK)
+
 # HOW TO USE IT
 1. Open the file "meraki_org_port_check.py" with your IDE.
 2. Replace the following lines of code:

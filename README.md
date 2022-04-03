@@ -1,16 +1,57 @@
-# MERAKI_ORG_PORT_CHECK
- Script that checks all Meraki switch ports in an organization and returns the existence of errors.
+# Meraki Organization Port Checker
+This script provides an automatic, 0-effort way to proactively check all MS model switch ports in your Meraki organization.
 
-[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/ivancesg/MERAKI_ORG_PORT_CHECK)
+## Contacts
+* Iván Ces Gándara 
+ - https://www.linkedin.com/in/ivances/
+ - Ivancesgandaravdj@gmail.com
 
-# HOW TO USE IT
-1. Open the file "meraki_org_port_check.py" with your IDE.
-2. Replace the following lines of code:
 
+## Solution Components
+* Python3
+* Meraki Dashboard API
+* Excel
+
+
+## Dependencies/Environment
+Required Packages
+ - Requests (pip install requests)
+ - Json (pip install json)
+ - Pandas (pip install pandas)
+ - OS (pip install os)
+
+## Starting the Application
+Once Dependencies are installed:
+
+# Modify the following lines on the code:
 Line 23 -> Modify it with the base URL of your Meraki Dashboard.
 
 Line 37 -> Modify it with your user's API key.
 
-3. From this point on, the script is ready, just run it, select the Organization you want to review and the script will generate an Excel file with all the data collected.
+# Start Application
+ - Navigate on the CMD into the folder where the script is located.
+ - Execute the script "meraki_org_port_check.py" with Python
 
-This is my first script, and I am self-taught, so any suggestions and/or help will be welcome!
+
+# Application Output
+ - The application will generate an Excel file with the state of all ports MS switches on the organization and, if some port is on error/failure state, the application will note the error description on the Excel for a quick view of the entire organization failures.
+
+
+### Developer Resources
+- Meraki API Reference - [See Docs](https://developer.cisco.com/meraki/api-v1/)
+
+### LICENSE
+
+Provided under Cisco Sample Code License, for details see [here](LICENSE.md)
+
+### CODE_OF_CONDUCT
+
+Our code of conduct is available [here](CODE_OF_CONDUCT.md)
+
+### CONTRIBUTING
+
+See our contributing guidelines [here](CONTRIBUTING.md)
+
+#### DISCLAIMER:
+<b>Please note:</b> This script is meant for demo purposes only. All tools/ scripts in this repo are released for use "AS IS" without any warranties of any kind, including, but not limited to their installation, use, or performance. Any use of these scripts and tools is at your own risk. There is no guarantee that they have been through thorough testing in a comparable environment and we are not responsible for any damage or data loss incurred with their use.
+You are responsible for reviewing and testing any scripts you run thoroughly before use in any non-testing environment.

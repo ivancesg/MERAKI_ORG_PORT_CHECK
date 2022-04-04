@@ -15,9 +15,7 @@ This script provides an automatic, 0-effort way to proactively check all MS mode
 ## Dependencies/Environment
 Required Packages
  - Requests (pip install requests)
- - Json (pip install json)
  - Pandas (pip install pandas)
- - OS (pip install os)
  
  Provided under [requirements.txt](requirements.txt)
 

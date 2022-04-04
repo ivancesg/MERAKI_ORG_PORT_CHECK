@@ -6,7 +6,6 @@ This script provides an automatic, 0-effort way to proactively check all MS mode
  - https://www.linkedin.com/in/ivances/
  - Ivancesgandaravdj@gmail.com
 
-
 ## Solution Components
 * Python3
 * Meraki Dashboard API
@@ -19,6 +18,8 @@ Required Packages
  - Json (pip install json)
  - Pandas (pip install pandas)
  - OS (pip install os)
+ 
+ Provided under [requirements.txt](requirements.txt)
 
 ## Starting the Application
 Once Dependencies are installed:
@@ -42,7 +43,7 @@ Line 37 -> Modify it with your user's API key.
 
 ### LICENSE
 
-Provided under Cisco Sample Code License, for details see [here](LICENSE.md)
+Provided under MIT License, for details see [here](LICENSE.md)
 
 ### CODE_OF_CONDUCT
 

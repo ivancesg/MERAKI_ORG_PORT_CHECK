@@ -6,7 +6,6 @@ This script provides an automatic, 0-effort way to proactively check all MS mode
  - https://www.linkedin.com/in/ivances/
  - Ivancesgandaravdj@gmail.com
 
-
 ## Solution Components
 * Python3
 * Meraki Dashboard API
@@ -19,6 +18,8 @@ Required Packages
  - Json (pip install json)
  - Pandas (pip install pandas)
  - OS (pip install os)
+ 
+ Provided under [requirements.txt](requirements.txt)
 
 ## Starting the Application
 Once Dependencies are installed:
@@ -36,13 +37,15 @@ Line 37 -> Modify it with your user's API key.
 # Application Output
  - The application will generate an Excel file with the state of all ports MS switches on the organization and, if some port is on error/failure state, the application will note the error description on the Excel for a quick view of the entire organization failures.
 
+You can see an example of the Excel [here](./OUTPUT_DEMO/Report-2022-03-29_15-44-12.xlsx)
+
 
 ### Developer Resources
 - Meraki API Reference - [See Docs](https://developer.cisco.com/meraki/api-v1/)
 
 ### LICENSE
 
-Provided under Cisco Sample Code License, for details see [here](LICENSE.md)
+Provided under MIT License, for details see [here](LICENSE.md)
 
 ### CODE_OF_CONDUCT
 

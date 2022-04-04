@@ -37,6 +37,8 @@ Line 37 -> Modify it with your user's API key.
 # Application Output
  - The application will generate an Excel file with the state of all ports MS switches on the organization and, if some port is on error/failure state, the application will note the error description on the Excel for a quick view of the entire organization failures.
 
+You can see an example of the Excel [here](OUTPUT_DEMO)
+
 
 ### Developer Resources
 - Meraki API Reference - [See Docs](https://developer.cisco.com/meraki/api-v1/)

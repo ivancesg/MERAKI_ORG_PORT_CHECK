@@ -1,0 +1,4 @@
+MERAKI_ORG_PORT_CHECK
+Copyright (c) 2022 Iván Ces Gándara
+
+This project includes software developed by Iván Ces Gándara using API calls developed by Cisco Systems, Inc. and/or its affiliates.

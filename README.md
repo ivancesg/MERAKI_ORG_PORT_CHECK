@@ -1,6 +1,8 @@
 # Meraki Organization Port Checker
 This script provides an automatic, 0-effort way to proactively check all MS model switch ports in your Meraki organization.
 
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/ivancesg/MERAKI_ORG_PORT_CHECK)
+
 ## Contacts
 * Iván Ces Gándara 
  - https://www.linkedin.com/in/ivances/
